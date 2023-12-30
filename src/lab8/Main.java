@@ -9,10 +9,10 @@ public class Main {
         dataManager.registerDataProcessor(new DataProcessors());
 
 
-        dataManager.loadData("C:\\Users\\honor\\IdeaProjects\\tasks\\src\\laba8\\input.txt");
+        dataManager.loadData("src\\laba8\\input.txt");
 
         dataManager.processData();
 
-        dataManager.saveData("C:\\Users\\honor\\IdeaProjects\\tasks\\src\\laba8\\output.txt");
+        dataManager.saveData("src\\laba8\\output.txt");
     }
 }
